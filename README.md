@@ -37,13 +37,6 @@ video.
 
 <img src="media/legend.svg" alt="[V] verified, [C] computed, [S] sourced, [J] judgement, [G] gap; SAVED, AWAITING APPROVAL, PROPOSED, NO CHANGE" width="680">
 
-- **[V] verified**: computed by a tool with a hand-computed reference case.
-- **[C] computed**: arithmetic by a tool, its formula and inputs named.
-- **[S] sourced**: read from a filing or data provider, with its location.
-- **[J] judgement**: the model's interpretation, or an assumption the system made. Never
-  presented as mine.
-- **[G] gap**: a figure that cannot be formed, with the reason. Never shown as zero.
-
 **Identifiers.** `E1.15` is an action in the observer (turn 1, action 15). `[C24]` or
 `[V159]` is a figure: its tier and its number, which the observer resolves to the tool call
 and inputs behind it. `‹1›` marks a source listed under the answer.
@@ -66,7 +59,7 @@ admitted only if the worst case still fits the turn's limit.
    review is saved only after my yes, and a research plan waits for its own approval.
    Theses and holdings are never changed by a review, and no order is placed.
 
-## What it does
+## What it does (example usecases)
 
 | Workflow | I ask | It does | I get |
 |---|---|---|---|
