@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="350" viewBox="0 0 880 350" role="img" aria-labelledby="title">
+  <title id="title">Evidence tiers and record states, in the colours of the video</title>
+  <style>
+    text { font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #d4d4d4; }
+    .head { fill: #8f8f8f; font-size: 13px; letter-spacing: 1px; }
+    .b { font-weight: 700; }
+  </style>
+  <rect width="880" height="350" rx="10" fill="#1c1c1c"/>
+
+  <text x="28" y="36" class="head">EVIDENCE TIERS</text>
+  <text x="28" y="66"><tspan class="b" fill="#e6e6e6">[V]</tspan><tspan x="80">verified: computed by a tool with a hand-computed reference case</tspan></text>
+  <text x="28" y="92"><tspan class="b" fill="#7f56ff">[C]</tspan><tspan x="80">computed: arithmetic by a tool, formula and inputs named</tspan></text>
+  <text x="28" y="118"><tspan class="b" fill="#d2e561">[S]</tspan><tspan x="80">sourced: read from a filing or data provider, with its location</tspan></text>
+  <text x="28" y="144"><tspan class="b" fill="#eb5dd4">[J]</tspan><tspan x="80">judgement: the model's interpretation or a system assumption</tspan></text>
+  <text x="28" y="170"><tspan class="b" fill="#d74d6e">[G]</tspan><tspan x="80">gap: a figure that cannot be formed, with the reason</tspan></text>
+
+  <text x="28" y="214" class="head">RECORD STATES</text>
+  <text x="28" y="244"><tspan fill="#31ba71">[SAVED]</tspan><tspan x="250">written after my yes to the text shown</tspan></text>
+  <text x="28" y="270"><tspan fill="#06d6d9">[AWAITING APPROVAL]</tspan><tspan x="250">a plan version waiting for my decision</tspan></text>
+  <text x="28" y="296"><tspan fill="#d2e561">[PROPOSED]</tspan><tspan x="250">shown to me, not saved until I say yes</tspan></text>
+  <text x="28" y="322"><tspan fill="#8f8f8f">[NO CHANGE]</tspan><tspan x="250">a record the turn left as it was</tspan></text>
+</svg>
